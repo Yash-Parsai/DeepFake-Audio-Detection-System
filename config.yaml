@@ -1,0 +1,10 @@
+# DeepShield config. Set data.root to your ASVspoof 2019 LA folder
+# (the folder that contains ASVspoof2019_LA_train / _dev / _eval and the protocols).
+# Can also be overridden with env var DEEPSHIELD_DATA_ROOT or --root on scripts.
+data:
+  root: "C:/Study/study/Major 1/archive (1)/LA/LA"
+  manifest_dir: "manifests"
+  sample_rate: 16000
+  segment_seconds: 4.0
+  min_seconds: 0.3
+  check_duplicates: true
